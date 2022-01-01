@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: century;
+}
+body{
+    background-image:  url(https://archzine.fr/wp-content/uploads/2020/04/bateau-fond-d-%C3%A9cran-magnifique-pour-ordinateur-lumi%C3%A8res-nature-ciel-constellation-nuages-fond-%C3%A9cran-r%C3%AAverie.jpg);
+    background-size: cover;
+}
+.header{
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+ }
+ nav{
+     display: flex;
+     margin-top: 20px;
+     
+ }
+ nav a{
+     text-decoration: none;
+     color: #fff;
+     padding: 10px 20px;
+     text-transform:uppercase;
+     border: 1px solid #fff;
+     margin: 10px;
+     font-weight: 500;
+     transition: 00.6s ease;
+ }
+ nav a:hover{
+     background: #fff;
+     color: #000;
+ }
+ nav.active a{
+     background-color: #fff;
+     color: #000;
+ }
+ .principale{
+     max-width: 114rem;
+     margin: 0 auto;
+     margin-left: 25%;
+ }
+h1{
+    color: #fff;
+    font-size: 30px;
+    margin-left: 20%;
+} 
+.infoperso{
+    color: #FFA07A;
+    font-style: italic;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: 35%;
+    margin-top: 8%;
+}
+.a{
+    position: absolute;
+    transform: translate(-50% -50%);
+    font-size: 20px;
+    position: absolute;
+    left: 25%;
+    top: 99%;
+}
